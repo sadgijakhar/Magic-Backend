@@ -1,0 +1,73 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------FAQ PAGE---------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.faq-heading {
+    text-align: center;
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    cursor: pointer;
+    padding: 20px 20px;
+    width: 60%;
+    transition: 0.4s;
+    margin: auto;
+
+}
+
+.faq-body {
+    margin: auto;
+    width: 50%;
+    padding: auto;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------FAQ PAGE---------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */

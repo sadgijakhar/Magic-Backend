@@ -1,0 +1,32 @@
+.cah1{
+    text-align: left;
+}
+.cah2{
+    text-align: left;
+    margin-bottom: 4%;
+}
+.btn1{
+    margin-top: 13%;
+    text-align: left;
+    padding:8px 28px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: rgba(83, 144, 22, 0.734);
+    border : 1px solid rgba(83, 144, 22, 0.734);
+}
+.card{
+    margin:2%;
+    height: auto;
+}
+.navii a{
+    font-size: 40px;
+}
+img{
+    width: auto;
+    height: auto;
+}

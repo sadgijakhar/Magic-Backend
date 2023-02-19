@@ -1,0 +1,155 @@
+/* import fonts from fonts.css file */
+@import url(fonts.css);
+
+/* css variables */
+@import url(partials/_variables.css);
+
+/* import global styling */
+@import url(partials/_global.css);
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------ABOUT PAGE---------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.about-area .title-badge {
+    color: rgb(75, 54, 157);
+    background-color: rgb(221, 215, 250);
+}
+
+.about-section-1 {
+    
+    background: url("images/Grey-3.jpg") no-repeat left;
+    background-size: 60%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 50px 20px 0px 0px;
+}
+
+
+.inner-container-1 {
+    background: url("images/Grey-3.jpg") no-repeat left;
+    width: 55%;
+    float: right;
+    background-color: #dce6d0;
+    padding: 150px;
+}
+
+.inner-container-1 h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.text-1 {
+    font-size: 13px;
+    color: #000000;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills-1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.about-section-2 {
+    background: url("images/Yellow-1.jpg") no-repeat right;
+    background-size: 60%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 20px 20px 0px 0px;
+}
+
+.text-2 {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills-2 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.inner-container-2 {
+    background: url("images/Yellow-1.jpg") no-repeat left;
+    width: 55%;
+    background-color: #a9b895;
+    padding: 150px;
+}
+
+.inner-container-2 h1 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-section-3 {
+    background: url("images/White-1.jpg") no-repeat left;
+    background-size: 60%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 20px 20px 0px 0px;
+}
+
+
+.inner-container-3 {
+    background: url("images/White-1.jpg") no-repeat left;
+    width: 55%;
+    float: right;
+    background-color: #c3d0b3;
+    padding: 150px;
+}
+
+.inner-container-3 h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .inner-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section {
+        padding: 0;
+    }
+
+    .inner-container {
+        padding: 60px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------ABOUT PAGE---------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
